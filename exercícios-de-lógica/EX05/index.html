@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX05</title>
+    <style>
+        body {
+            background-color: gainsboro;
+        }
+
+        div {
+            width: 500px;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            text-align: center;
+        }
+    </style>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1> 05. Faça um programa que leia as duas notas de um aluno em uma matéria e mostre na tela a sua média na disciplina. </h1>
+
+    <div>
+        <p>
+            <label for="n1">Nota 1:</label>
+            <input type="number" name="n1" id="n1">
+        </p>
+        <p>
+            <label for="n2">Nota 2:</label>
+            <input type="number" name="n2" id="n2">
+        </p>
+        <input type="button" value="Média" onclick="media()">
+        <div id="res"></div>
+    </div>
+
+</body>
+</html>

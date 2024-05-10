@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX05</title>
+    <style>
+        body {
+            background-color: gainsboro;
+        }
+
+        div {
+            width: 500px;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            text-align: center;
+        }
+    </style>
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div>
+
+        <p>
+            <label for="nome">Informe o nome do aluno: </label>
+            <input type="text" name="nome" id="nome">
+        </p>
+
+        <p>
+            <label for="n1">Nota 1:</label>
+            <input type="number" name="n1" id="n1">
+        </p>
+        <p>
+            <label for="n2">Nota 2:</label>
+            <input type="number" name="n2" id="n2">
+        </p>
+        <input type="button" value="Média" onclick="media()">
+        <div id="res"></div>
+    </div>
+
+</body>
+</html>

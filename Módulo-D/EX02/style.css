@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+}
+
+header {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 2%;  
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.226);
+}
+
+input {
+    padding: 5px;
+}
+
+img {
+    padding: 10px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
